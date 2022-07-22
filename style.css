@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(blue, lightblue);
+}
+img{
+     width: 200px;
+  height: 200px;
+}
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid blue;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#progressBarFull {
+    height: 3.4rem;
+    background-color: blue;
+    width: 0%;
+}
+#progressBar1 {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid orange;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#progressBarFull1 {
+    height: 3.4rem;
+    background-color: orange;
+    width: 0%;
+}
+#progressBar2 {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid skyblue;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#progressBarFull2 {
+    height: 3.4rem;
+    background-color: skyblue;
+    width: 0%;
+}
+#progressBar3 {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid navy;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#progressBarFull3 {
+    height: 3.4rem;
+    background-color: navy;
+    width: 0%;
+}
+#progressBar4 {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid yellow;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#progressBarFull4 {
+    height: 3.4rem;
+    background-color: yellow;
+    width: 0%;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container > * {
+    width: 100%;
+}
